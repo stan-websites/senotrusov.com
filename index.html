@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Stan Senotrusov</title>
+    <style>
+      body {
+        font-family: sans-serif;
+        margin: 30px 40px;
+        margin-bottom: 40px;
+        line-height: 150%;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+
+      h1, h2, h3 {font-weight: normal}
+      h3.padding {padding-bottom: 15px}
+      li {margin-bottom: 5px}
+      .nowrap {white-space: nowrap}
+
+      @media only screen
+        and (min-device-width : 768px)
+        and (max-device-width : 1024px)
+        and (orientation : landscape){
+          body {font-size: 110%}
+        }
+
+      @media only screen
+        and (min-device-width : 768px)
+        and (max-device-width : 1024px)
+        and (orientation : portrait){
+          body {font-size: 140%}
+        }
+    </style>
+  </head>
+  <body>
+
+    <img src="photo.png" alt="Stan Senotrusov" height="420">
+
+    <h1>Stan Senotrusov</h1>
+
+    <!-- <h3 class="padding">Available for hire</h3> -->
+
+    <h2>My code on GitHub</h2>
+
+    <ul>
+      <li><a href="https://github.com/senotrusov/redis-call">Redis-call</a> &ndash;
+        Redis access library for Ruby with thread-aware connections, handy API for keys' names construction, transactions and queues.</li>
+
+      <li><a href="https://github.com/senotrusov/workety">Workety</a> &ndash;
+        a library to run Ruby classes as daemons. Process start, signal handling, logfile/pidfile, restart by watchdog, exception handling, reporting to Airbrake and Exceptional, Rails environment load, mutithreaded workers.</li>
+
+      <li><a href="https://github.com/senotrusov/march">March</a> &ndash;
+        a social content creation tool with cartography features (Rails, PostgreSQL, Slim, Sass, CoffeScript, jQuery, Leaflet, Markdown).</li>
+
+      <li><a href="https://github.com/senotrusov/foam">FOAM</a> &ndash;
+        JavaScript library for MVC with event propagation through singleton models.</li>
+
+      <li><a href="https://github.com/senotrusov/rubymq">RubyMQ</a> &ndash;
+        message-oriented middleware for Ruby (client and server), implementation of AMQP protocol.</li>
+
+      <li><a href="https://github.com/senotrusov/remove-duplicates">Remove duplicates</a> &ndash;
+        Simple and fast tool to remove duplicates from iPhoto library.</li>
+    </ul>
+
+    <h2>Me on social networks</h2>
+    <ul>
+      <li><a href="http://github.com/senotrusov">Github</a></li>
+      <li><a href="http://twitter.com/senotrusov">Twitter</a></li>
+      <li><a href="http://www.facebook.com/stan.senotrusov">Facebook</a></li>
+    </ul>
+
+    <h2>Contact me</h2>
+    <ul>
+      <li><span id="insertAddressHere"></span></li>
+      <li><a href="https://www.linkedin.com/in/senotrusov/">LinkedIn</a></li>
+      <li><a href="skype:s.senotrusov">Skype</a></li>
+    </ul>
+    <script>
+      insertAddressHere.innerHTML = decodeURIComponent('e3%16%f2%c3%d6%f6%36%e2%67%f6%37%57%27%47%f6%e6%56%37%04%e6%16%47%37%e3%22%d6%f6%36%e2%67%f6%37%57%27%47%f6%e6%56%37%04%e6%16%47%37%a3%f6%47%c6%96%16%d6%22%d3%66%56%27%86%02%16%c3%'.split('').reverse().join(''))
+    </script>
+  </body>
+</html>
